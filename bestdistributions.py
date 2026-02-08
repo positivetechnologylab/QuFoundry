@@ -119,7 +119,7 @@ def create_combined_dist_plot(best_results, dist_constructors, ansatz_constructo
 
             if idx == 0:
                 legend_lines  = [l_t[0], l_i[0], l_q[0]]
-                legend_labels = ['Target','Initial','QMill']
+                legend_labels = ['Target','Initial','QuFoundry']
 
             ax.grid(True, alpha=0.3, linestyle='--')
             display_name  = title_name_mapping.get(dist_name, dist_name)
