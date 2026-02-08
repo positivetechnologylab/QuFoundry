@@ -1,9 +1,9 @@
-# QMILL: Synthetic Quantum Dataset Generation Framework
+# QuFoundry: Synthetic Quantum Dataset Generation Framework
 
 ## Overview
-**QMill** is a framework for generating **entanglement-rich synthetic quantum datasets**. It addresses the scarcity of real quantum-sensed data by producing low-depth, parameterized ansatz circuits optimized to match user-specified distributions of **Concentratable Entanglement** (CE). QMILL also enforces sample diversity via SWAP-test checks.
+**QuFoundry** is a framework for generating **entanglement-rich synthetic quantum datasets**. It addresses the scarcity of real quantum-sensed data by producing low-depth, parameterized ansatz circuits optimized to match user-specified distributions of **Concentratable Entanglement** (CE). QuFoundry also enforces sample diversity via SWAP-test checks.
 
-This repo contains all code and data needed to reproduce the plots from the related paper: QMILL: Representative Quantum Data Generation for Effective and Efficient Quantum Machine Learning.
+This repo contains all code and data needed to reproduce the plots from the related paper: QuFoundry: Representative Quantum Data Generation for Effective and Efficient Quantum Machine Learning.
 
 ---
 
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ## Installation
 git clone this repo
-cd QMill
+cd QuFoundry
 
 ---
 
@@ -36,8 +36,8 @@ cd QMill
 
 
 ```text
-QMill/
-├── Annealing/                  # Raw `.npy` outputs from QMill optimizer
+QuFoundry/
+├── Annealing/                  # Raw `.npy` outputs from QuFoundry optimizer
 ├── ce_high_sim_data/           # Noisy-simulation CE `.npz`
 ├── ce_high_sim_data_ideal/     # Ideal-simulation CE `.npz`
 ├── ce_high_data/               # Real-hardware CE `.npz`
